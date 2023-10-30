@@ -1,0 +1,77 @@
+body{
+  font-family: Space Grotesk;
+  background-color: #D1B490;
+  color: #51555A;
+  padding: 25px;
+  text-align: center;
+}
+h1, h2{
+  font-family: Chivo;
+  color: #6f1d1b;
+}
+li{
+  display: inline;
+}
+ul{
+  padding: 0;
+}
+.follow{
+  color: #51555A;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  font-size: 25px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.follow:hover{
+  font-size: 40px;
+}
+
+
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.card{
+  background-color: white;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+
+.btn-rouge {
+  background-color: #6f1d1b;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1500px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
